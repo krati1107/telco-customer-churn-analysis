@@ -8,7 +8,7 @@
 
 👉 **[Click here to view the live dashboard](https://krati1107.github.io/telco-customer-churn-analysis/dashboard/telco_churn_dashboard.html)**
 
-Features: Executive KPIs • Churn driver analysis • High-risk customer list • Real-time filters
+**Features:** Executive KPIs • Churn driver analysis • High-risk customer list • Real-time filters
 
 ---
 
@@ -60,4 +60,25 @@ A telecom company is losing customers at a high rate. Acquiring new customers co
 ---
 
 ## 📁 Project Structure
+telco-customer-churn-analysis/
+│
+├── README.md
+├── dashboard/ # Interactive HTML dashboard
+├── data-folder/ # Raw dataset
+├── python/ # EDA and ML notebook
+└── sql/ # SQL queries and views
+
+---
+
+## 👤 Author
+
+**Krati Shrivastava**  
+Data Analyst | Python | SQL | Power BI | GenAI
+
+🔗 **LinkedIn:** [krati-shrivastava11](https://linkedin.com/in/krati-shrivastava11)  
+💻 **GitHub:** [krati1107](https://github.com/krati1107)
+
+---
+
+⭐ If you found this project useful, please give it a star!
 
