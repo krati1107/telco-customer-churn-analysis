@@ -1,2 +1,63 @@
-# telco-customer-churn-analysis
-End-to-end Data Analyst project: SQL + Python + ML + Interactive Dashboard for Telecom Customer Churn Prediction
+# 📉 Telco Customer Churn Prediction & Retention Analysis
+
+**End-to-end Data Analyst project** — SQL + Python + Machine Learning + Interactive Dashboard
+
+---
+
+## 🚀 Live Interactive Dashboard
+
+👉 **[Click here to view the live dashboard](https://krati1107.github.io/telco-customer-churn-analysis/dashboard/telco_churn_dashboard.html)**
+
+Features: Executive KPIs • Churn driver analysis • High-risk customer list • Real-time filters
+
+---
+
+## 📌 Business Problem
+
+A telecom company is losing customers at a high rate. Acquiring new customers costs **5–7x more** than retaining existing ones. The company needs a proactive, data-driven system to identify at-risk customers before they leave.
+
+---
+
+## 🎯 Project Objectives
+
+- **Analyze** 7,000+ customer records to find churn drivers
+- **Predict** churn probability using Machine Learning
+- **Segment** customers into High / Medium / Low risk tiers
+- **Visualize** insights via an interactive dashboard
+- **Recommend** retention strategies to protect revenue
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Tools |
+|---|---|
+| Data Storage | MySQL, MySQL Workbench |
+| Data Analysis | Python (Pandas, NumPy) |
+| Machine Learning | Scikit-learn (Random Forest) |
+| Visualization | Matplotlib, Seaborn, Chart.js |
+| Dashboard | HTML, CSS, JavaScript |
+| Deployment | GitHub Pages |
+
+---
+
+## 📊 Key Insights
+
+- 🔴 **Month-to-month contracts** have the highest churn rate (~42%)
+- 🔴 **New customers (0–12 months)** churn the most
+- 🔴 **Electronic check** payment method is linked to higher churn
+- 🔴 Customers with **higher monthly charges** churn more
+
+---
+
+## 🤖 Machine Learning Model
+
+- **Algorithm:** Random Forest Classifier
+- **Accuracy:** ~80%
+- **Metric Focus:** Recall (catching potential churners is more important than perfect precision)
+- **Top Drivers:** Contract type, tenure, total charges
+
+---
+
+## 📁 Project Structure
+
