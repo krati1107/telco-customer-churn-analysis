@@ -77,15 +77,15 @@ Screenshots will help recruiters quickly understand the analysis and dashboard.
 
 ### 1. Power BI Dashboard
 
-![Power BI Dashboard](screenshots/powerbi-dashboard.png)
+![Power BI Dashboard]https://1drv.ms/i/c/0C3C682A870456A0/IQClRVAu6sPlQ74lfJbZk8EcAYAWmPEskQ42tbAG2c5KBX4?e=KGHsb3
 
 ### 2. Exploratory Data Analysis
 
-![Exploratory Data Analysis](screenshots/eda-analysis.png)
+![Exploratory Data Analysis]https://1drv.ms/i/c/0C3C682A870456A0/IQAkXOYOvVa4QJLlvhZCpLGOASI00szlN9muHXnw8jrCMXA?e=vHRtTI
 
 ### 3. Model Performance
 
-![Model Performance](screenshots/model-performance.png)
+![Model Performance]https://1drv.ms/i/c/0C3C682A870456A0/IQC4ROwmP777SYIvWPG7s41KAdCTFk2T-5xZV9VIiadyC1Q?e=zZlzmb
 
 > **Note:** Upload your actual screenshots using these exact filenames, or change the image paths above to match your filenames. The images will not display until the files exist in the repository.
 
