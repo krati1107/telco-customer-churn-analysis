@@ -1,102 +1,124 @@
-# Telecom Customer Churn Prediction and Retention Analysis
+# 📊 Telecom Customer Churn Prediction & Retention Analysis
 
-## Project Overview
+An end-to-end data analytics and machine learning project to analyze telecom customer churn, identify customer retention patterns, and predict customers who may leave the service.
 
-This project analyzes telecom customer data to understand customer churn, identify customer groups with higher churn rates, and recommend strategies to improve customer retention.
+## 🎯 Project Objectives
 
-It combines Python-based exploratory data analysis (EDA), a machine learning classification model, and an interactive Power BI dashboard.
+- Analyze customer churn patterns and behavior.
+- Identify factors associated with customer churn.
+- Build a machine learning model to predict churn.
+- Present business insights to support customer retention decisions.
 
-## Objectives
+## 🛠️ Tools & Technologies
 
-- Analyze customer demographics, services, contracts, and payment methods.
-- Identify patterns associated with customer churn.
-- Build a machine learning model to predict potential customer churn.
-- Visualize churn KPIs and customer segments in Power BI.
-- Recommend data-driven customer retention strategies.
-
-## Tools and Technologies
-
-- **Python:** Data cleaning and analysis
-- **Pandas and NumPy:** Data manipulation
-- **Matplotlib and Seaborn:** Data visualization
+- **Python:** Data cleaning, exploratory data analysis, and preprocessing
+- **Pandas & NumPy:** Data manipulation
+- **Matplotlib & Seaborn:** Data visualization
 - **Scikit-learn:** Machine learning and model evaluation
-- **Jupyter Notebook:** Analysis and experimentation
 - **Power BI:** Interactive dashboard and business reporting
+- **Jupyter Notebook:** Analysis and experimentation
 
-## Dataset
+## 📁 Project Structure
 
-The project uses the Telco Customer Churn dataset, containing customer demographics, subscribed services, contract information, billing details, tenure, and churn status.
+```text
+telco-customer-churn-analysis/
+├── data/
+│   └── README.md
+├── dashboard/
+│   └── Power BI dashboard file (.pbix)
+├── notebooks/
+│   └── 01_churn_eda.ipynb
+├── screenshots/
+├── business_insights.csv
+├── model_performance.csv
+├── requirements.txt
+├── .gitignore
+└── README.md
+```
 
-The original dataset contains 7,043 customer records. After converting `TotalCharges` to numeric and removing 11 rows with invalid values, 7,032 records remain for analysis.
+*This shows the intended structure. Your actual files may differ.*
 
-## Project Workflow
+## 🔍 Project Workflow
 
-1. **Data Cleaning:** Convert data types, handle invalid values, and prepare the dataset.
-2. **Exploratory Data Analysis:** Examine churn distribution and relationships between churn and customer attributes.
-3. **Feature Engineering:** Create customer tenure groups.
-4. **Model Building:** Use a preprocessing pipeline and a Random Forest classifier.
-5. **Model Evaluation:** Evaluate predictions using accuracy, precision, recall, F1-score, and a confusion matrix.
-6. **Power BI Dashboard:** Present customer churn KPIs, segment comparisons, and retention recommendations.
-7. **Business Recommendations:** Identify customer groups that may benefit from targeted retention efforts.
+1. **Data Cleaning:** Handled missing or invalid values and prepared the dataset for analysis.
+2. **Feature Engineering:** Created a tenure group feature to help analyze customer behavior.
+3. **Exploratory Data Analysis:** Examined churn patterns and customer characteristics.
+4. **Model Building:** Trained a Random Forest classifier.
+5. **Model Evaluation:** Evaluated predictions using accuracy, precision, recall, F1-score, and a confusion matrix.
+6. **Dashboard Development:** Used Power BI to present customer churn metrics and business insights.
 
-## Model Performance
+## 📈 Dataset Summary
 
-The Random Forest model was evaluated on a held-out test set containing 1,407 records.
+| Metric | Value |
+|---|---:|
+| Original records | 7,043 |
+| Records after cleaning | 7,032 |
+| Customers who churned | 1,869 |
+| Overall churn rate | 26.58% |
 
-| Metric | Result |
+The original dataset contains telecom customer information, including tenure, services, contract details, charges, and churn status.
+
+## 🤖 Machine Learning Model
+
+A **Random Forest Classifier** was used to predict customer churn.
+
+| Evaluation Metric | Result |
 |---|---:|
 | Accuracy | 76.12% |
 | Precision | 54.26% |
 | Recall | 64.71% |
 | F1-score | 59.02% |
 
-These results are from the current model evaluation. They indicate that the model identifies some customers who churn, but its predictions are not perfect and should be improved before real-world use.
+These results are from the current model evaluation. Accuracy alone does not fully measure churn prediction quality, so precision, recall, and F1-score are also included.
 
-## Key Dataset Findings
+## 📊 Dashboard & Project Screenshots
 
-- Total customers after cleaning: **7,032**
-- Customers who churned: **1,869**
-- Overall churn rate: **26.58%**
+Screenshots will help recruiters quickly understand the analysis and dashboard.
 
-The analysis also compares churn rates by contract type, tenure group, payment method, internet service, online security, and tech support.
+### 1. Power BI Dashboard
 
-## Business Recommendations
+![Power BI Dashboard](screenshots/powerbi-dashboard.png)
 
-- Improve onboarding and engagement for new customers.
-- Investigate churn among month-to-month contract customers.
-- Review service and support options for customers with higher churn rates.
-- Examine payment-method patterns and possible payment friction.
-- Monitor churn KPIs and evaluate retention initiatives over time.
+### 2. Exploratory Data Analysis
 
-These are recommendations based on observed patterns, not proof that any single factor causes churn.
+![Exploratory Data Analysis](screenshots/eda-analysis.png)
 
-## Project Structure
+### 3. Model Performance
 
-```text
-telecom-customer-churn-analysis/
-├── data/
-├── notebooks/
-│   └── 01_churn_eda.ipynb
-├── dashboard/
-├── business_insights.csv
-├── model_performance.csv
-├── telecom_churn_cleaned.csv
-├── telecom_churn_model.pkl
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
+![Model Performance](screenshots/model-performance.png)
 
-Files should be included in the repository only if they exist and are appropriate to share. Check the dataset's redistribution terms before publishing data files.
+> **Note:** Upload your actual screenshots using these exact filenames, or change the image paths above to match your filenames. The images will not display until the files exist in the repository.
 
-## How to Run
+## 💡 Business Value
+
+This project demonstrates how customer data can be used to:
+
+- Understand customer churn and retention patterns.
+- Identify customer groups that may need retention attention.
+- Communicate analytical findings through visualizations.
+- Support data-driven business decisions.
+
+## 🚀 How to Run the Project
 
 1. Clone or download this repository.
-2. Install the required Python packages:
+2. Install the dependencies listed in `requirements.txt`.
+3. Obtain the original dataset from its source and follow its license terms.
+4. Place the dataset in the `data/` folder.
+5. Open `notebooks/01_churn_eda.ipynb` in Jupyter Notebook.
+6. Update the dataset path in the notebook if necessary and run the cells.
 
-   ```bash
-   pip install -r requirements.txt
-   ```
+The Power BI dashboard can be opened in Power BI Desktop if the `.pbix` file is included.
 
-3. Open `notebooks/01_churn_eda.ipynb` in Jupyter Notebook or VS Code.
-4. Ensure the dataset is available at the path expected
+## ⚠️ Limitations
+
+- Model performance depends on the available dataset and selected features.
+- Predictions are not guarantees that a customer will churn.
+- The model should be evaluated and improved before any real-world business deployment.
+- This repository does not claim a live deployed prediction service.
+
+## 👩‍💻 Author
+
+**Krati Srivastava**
+
+GitHub: [@krati1107](https://github.com/krati1107)
+
