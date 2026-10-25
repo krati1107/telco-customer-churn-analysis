@@ -75,9 +75,10 @@ These results are from the current model evaluation. Accuracy alone does not ful
 
 ### 1. Power BI Dashboard
 
-![Power BI Dashboard] <img width="1248" height="650" alt="Screenshot 2026-10-25 152413" src="https://github.com/user-attachments/assets/3ed6a8bf-ff73-465e-99fa-1f8158001759" />
+![Power BI Dashboard] <img width="1248" height="650" alt="Screenshot 2026-10-25 152413" src="https://github.com/user-attachments/assets/3ed6a8bf-ff73-465e-99fa-1f8158001759" /> 
+<img width="1152" height="677" alt="Screenshot 2026-10-25 152424" src="https://github.com/user-attachments/assets/17b50656-221d-4c7c-baf4-0895652c10ae" />
+
 <img width="1113" height="671" alt="Screenshot 2026-10-25 152438" src="https://github.com/user-attachments/assets/8ca4415c-d6bd-4a40-a8d2-8a94ce6487b5" />
-<img width="1113" height="671" alt="Screenshot 2026-10-25 152438" src="https://github.com/user-attachments/assets/51a1ba44-75fd-4878-8f6f-693a9606ff8c" />
 
 
 
