@@ -77,7 +77,8 @@ Screenshots will help recruiters quickly understand the analysis and dashboard.
 
 ### 1. Power BI Dashboard
 
-![Power BI Dashboard]https://1drv.ms/i/c/0C3C682A870456A0/IQClRVAu6sPlQ74lfJbZk8EcAYAWmPEskQ42tbAG2c5KBX4?e=5KcLUO
+![Power BI Dashboard] <img width="1248" height="650" alt="Screenshot 2026-10-25 152413" src="https://github.com/user-attachments/assets/3ed6a8bf-ff73-465e-99fa-1f8158001759" />
+
 
 ### 2. Exploratory Data Analysis
 
