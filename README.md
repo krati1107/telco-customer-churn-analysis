@@ -73,22 +73,15 @@ These results are from the current model evaluation. Accuracy alone does not ful
 
 ## 📊 Dashboard & Project Screenshots
 
-Screenshots will help recruiters quickly understand the analysis and dashboard.
-
 ### 1. Power BI Dashboard
 
 ![Power BI Dashboard] <img width="1248" height="650" alt="Screenshot 2026-10-25 152413" src="https://github.com/user-attachments/assets/3ed6a8bf-ff73-465e-99fa-1f8158001759" />
+<img width="1113" height="671" alt="Screenshot 2026-10-25 152438" src="https://github.com/user-attachments/assets/8ca4415c-d6bd-4a40-a8d2-8a94ce6487b5" />
+<img width="1113" height="671" alt="Screenshot 2026-10-25 152438" src="https://github.com/user-attachments/assets/51a1ba44-75fd-4878-8f6f-693a9606ff8c" />
 
 
-### 2. Exploratory Data Analysis
 
-![Exploratory Data Analysis]https://1drv.ms/i/c/0C3C682A870456A0/IQAkXOYOvVa4QJLlvhZCpLGOASI00szlN9muHXnw8jrCMXA?e=vHRtTI
 
-### 3. Model Performance
-
-![Model Performance]https://1drv.ms/i/c/0C3C682A870456A0/IQC4ROwmP777SYIvWPG7s41KAdCTFk2T-5xZV9VIiadyC1Q?e=zZlzmb
-
-> **Note:** Upload your actual screenshots using these exact filenames, or change the image paths above to match your filenames. The images will not display until the files exist in the repository.
 
 ## 💡 Business Value
 
